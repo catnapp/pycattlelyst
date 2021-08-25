@@ -1,0 +1,85 @@
+{
+    "c4db4d96f71c349639d0271182df4f59": {
+        "next_state_uuids": [
+            "e0dcd803580ee1a974f7e4fd192e12be"
+        ],
+        "cows": {
+            "abe": {
+                "pos": [
+                    0,
+                    1
+                ],
+                "emo": "moving",
+                "v": [
+                    0,
+                    1
+                ]
+            }
+        }
+    },
+    "7009d3756bae88988bd4de80ed76346f": {
+        "cows": {
+            "abe": {
+                "pos": [
+                    0,
+                    1
+                ],
+                "emo": "chilling"
+            },
+            "c4db4d96f71c349639d0271182df4f59-a94d522590f6326dfb24b1f020bb0f41": {
+                "pos": [
+                    0,
+                    2
+                ],
+                "emo": "flatulating"
+            }
+        }
+    },
+    "6fc1fe359cb4d51950c4e04c28add01b": {
+        "next_state_uuids": [
+            "7009d3756bae88988bd4de80ed76346f"
+        ],
+        "cows": {
+            "abe": {
+                "pos": [
+                    0,
+                    1
+                ],
+                "emo": "chilling"
+            },
+            "c4db4d96f71c349639d0271182df4f59-a94d522590f6326dfb24b1f020bb0f41": {
+                "pos": [
+                    0,
+                    2
+                ],
+                "emo": "chilling"
+            }
+        },
+        "shots": [
+            {
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        ]
+    },
+    "72d68a39f22be3641d6a6c0946482e35": {
+        "cows": {
+            "abe": {
+                "pos": [
+                    0,
+                    1
+                ],
+                "emo": "chilling"
+            },
+            "c4db4d96f71c349639d0271182df4f59-a94d522590f6326dfb24b1f020bb0f41": {
+                "pos": [
+                    0,
+                    2
+                ],
+                "emo": "chilling"
+            }
+        }
+    }
+}

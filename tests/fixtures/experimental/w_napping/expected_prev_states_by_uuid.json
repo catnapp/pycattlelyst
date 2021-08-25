@@ -1,0 +1,80 @@
+{
+  "c4db4d96f71c349639d0271182df4f59": {
+    "uuid": "c4db4d96f71c349639d0271182df4f59",
+    "next_state_uuid": "e0dcd803580ee1a974f7e4fd192e12be",
+    "cows": {
+      "abe": {
+        "pos": [0, 1],
+        "emo": "moving",
+        "v": [0, 1]
+      },
+      "pen": {
+        "pos": [0, 0],
+        "emo": "napping"
+      }
+    },
+    "actions": [{
+      "type": "COW/MOVE",
+      "payload": {
+        "cow_uuid": "pen"
+      }
+    }]
+  },
+  "7009d3756bae88988bd4de80ed76346f": {
+    "uuid": "7009d3756bae88988bd4de80ed76346f",
+    "next_state_uuids": ["c4db4d96f71c349639d0271182df4f59"],
+    "cows": {
+      "abe": {
+        "pos": [0, 1],
+        "emo": "chilling"
+      },
+      "pen": {
+        "pos": [0, 2],
+        "emo": "flatulating"
+      }
+    },
+    "actions": [{
+      "type": "COW/RELEASE_FLATULANCE",
+      "payload": {
+        "cow_uuid": "pen"
+      }
+    }]
+  },
+  "6fc1fe359cb4d51950c4e04c28add01b": {
+    "uuid": "6fc1fe359cb4d51950c4e04c28add01b",
+    "next_state_uuid": "7009d3756bae88988bd4de80ed76346f",
+    "cows": {
+      "abe": {
+        "pos": [0, 1],
+        "emo": "chilling"
+      },
+      "pen": {
+        "pos": [0, 2],
+        "emo": "chilling",
+        "has_gas": true 
+      }
+    },
+    "actions": [{
+      "type": "PLAYER/PET_COW",
+      "payload": {
+        "cow_uuid": "pen"
+      }
+    }]
+  },
+  "72d68a39f22be3641d6a6c0946482e35": {
+    "uuid": "72d68a39f22be3641d6a6c0946482e35",
+    "next_state_uuid": "6fc1fe359cb4d51950c4e04c28add01b",
+    "cows": {
+      "abe": {
+        "pos": [0, 1],
+        "emo": "chilling"
+      },
+      "pen": {
+        "pos": [0, 2],
+        "emo": "chilling",
+        "has_gas": true 
+      }
+    }
+  }
+}  
+
