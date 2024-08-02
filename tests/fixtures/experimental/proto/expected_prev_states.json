@@ -1,0 +1,125 @@
+{
+  "grid": [
+    {
+      "type": "pen",
+      "pos": [0, 2]
+    },
+    {
+      "type": "platform",
+      "pos": [0, 1]
+    },
+    {
+      "type": "platform",
+      "pos": [0, 0]
+    }
+  ],
+  "end_state": {
+    "uid":"a11",
+    "cows": [
+      {
+        "id": "abe",
+        "pos": [0, 2],
+        "emo": "chilling"
+      }
+    ]
+  },
+  "prev_states": [
+    {
+      "uid": "b44",
+      "parent_uids": ["a11"],
+      "cows": [
+        {
+          "id": "abe",
+          "pos": [0, 1],
+          "emo": "moving",
+          "v": [0, 1]
+        }
+      ]
+    },
+    {
+      "uid": "e99",
+      "parent_uids": ["b44"],
+      "cows": [
+        {
+          "id": "abe",
+          "pos": [0, 1],
+          "emo": "chilling"
+        }
+      ],
+      "shots": [
+        {
+          "pos": [0, 2]
+        }
+      ]
+    },
+    {
+      "uid": "d77",
+      "parent_uids": ["e99"],      
+      "cows": [
+        {
+          "id": "abe",
+          "pos": [0, 1],
+          "emo": "chilling"
+        }
+      ]
+    },    
+    {
+      "uid": "c33",
+      "parent_uids": ["b44"],
+      "cows": [
+        {
+          "id": "abe",
+          "pos": [0, 1],
+          "emo": "chilling"
+        },
+        {
+          "id": "dan",
+          "pos": [0, 2],
+          "emo": "flatulating"
+        }        
+      ],
+      "shots": [
+        {
+          "pos": [0, 2]
+        }
+      ]
+    }, 
+    {
+      "uid": "f55",
+      "parent_uids": ["c33"],
+      "cows": [
+        {
+          "id": "abe",
+          "pos": [0, 1],
+          "emo": "chilling"
+        },
+        {
+          "id": "dan",
+          "pos": [0, 2],
+          "emo": "chilling"
+        }        
+      ],
+      "shots": [
+        {
+          "pos": [0, 2]
+        }
+      ]
+    },        
+    {
+      "uid": "e11",
+      "parent_uids": ["f55"],
+      "cows": [
+        {
+          "id": "abe",
+          "pos": [0, 1],
+          "emo": "chilling"
+        },
+        {
+          "id": "dan",
+          "pos": [0, 2],
+          "emo": "chilling"
+        }        
+      ]
+    }
+  ]
+}

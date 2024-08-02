@@ -1,0 +1,14 @@
+[
+  {
+    "type": "pen",
+    "pos": [0, 2]
+  },
+  {
+    "type": "platform",
+    "pos": [0, 1]
+  },
+  {
+    "type": "platform",
+    "pos": [0, 0]
+  }
+]

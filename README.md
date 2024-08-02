@@ -1,34 +1,17 @@
-# 🐍 pything
-[![PyPI version](https://badge.fury.io/py/pything.svg)](https://badge.fury.io/py/pything)
-[![Build Status](https://travis-ci.com/json2d/pything.svg?branch=master)](https://travis-ci.com/json2d/pything) [![Coverage Status](https://coveralls.io/repos/github/json2d/pything/badge.svg?branch=master)](https://coveralls.io/github/json2d/pything?branch=master)
+# 🐄 cattlelyst
+[![PyPI version](https://badge.fury.io/py/cattlelyst.svg)](https://badge.fury.io/py/cattlelyst)
+[![Build Status](https://travis-ci.com/json2d/cattlelyst.svg?branch=master)](https://travis-ci.com/catnapp/cattlelyst) [![Coverage Status](https://coveralls.io/repos/github/json2d/cattlelyst/badge.svg?branch=master)](https://coveralls.io/github/catnapp/cattlelyst?branch=master)
 
-a Python library starter template
+support libs for Flatulating Cattle game
 
-## Quick install
+## Quick Start
+install packages for doing dev:
 ```bash
-pip install pything
+pip install -r requirements.txt -r requirements.tests.txt
 ```
 
-## Basic usage
+run tests:
 
-[decent pitch]. Let's dive in.
-
-Out-of-the-box you get some stuff you can do with a pything:
-
-```py
-import pything as pyt
-
-pyt.do_stuff()
-
-```
-
-## More advanced usage
-
-Then here's this stuff you can do with a pything:
-
-```py
-import pything as pyt
-
-pyt.do_crazier_stuff()
-
+```bash
+python tests/units.py
 ```

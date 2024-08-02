@@ -1,0 +1,81 @@
+{
+  "grid": [
+    {
+      "type": "pen",
+      "pos": [0, 2]
+    },
+    {
+      "type": "platform",
+      "pos": [0, 1]
+    },
+    {
+      "type": "platform",
+      "pos": [0, 0]
+    }
+  ],
+  "end_state": {
+    "cows": {
+      "abe": {
+        "pos": [0, 2],
+        "emo": "chilling"
+      }
+    }
+  },
+  "end_state_uuid": "e0dcd803580ee1a974f7e4fd192e12be",
+  "prev_states": {
+    "ad271a74a338a1dc7b3c069b67cd29b2": {
+      "next_state_uuids": ["e0dcd803580ee1a974f7e4fd192e12be"],
+      "cows": {
+        "abe": {
+          "pos": [0, 1],
+          "emo": "moving",
+          "v": [0, 1]
+        }
+      }
+    },
+    "d8b5fcc3672966920f0c1598ea0db2f5": {
+      "next_state_uuids": ["ad271a74a338a1dc7b3c069b67cd29b2"],
+      "cows": {
+        "abe": {
+          "pos": [0, 1],
+          "emo": "chilling"
+        },
+        "ad271a74a338a1dc7b3c069b67cd29b2-a94d522590f6326dfb24b1f020bb0f41": {
+          "pos": [0, 2],
+          "emo": "flatulating"
+        }        
+      }
+    }, 
+    "e10257b71fc23d8259176c24bee070a0": {
+      "next_state_uuids": ["d8b5fcc3672966920f0c1598ea0db2f5"],
+      "cows": {
+        "abe": {
+          "pos": [0, 1],
+          "emo": "chilling"
+        },
+        "ad271a74a338a1dc7b3c069b67cd29b2-a94d522590f6326dfb24b1f020bb0f41":{
+          "pos": [0, 2],
+          "emo": "chilling"
+        }        
+      },
+      "shots": [
+        {
+          "pos": [0, 2]
+        }
+      ]
+    },        
+    "00d1b77b7352bd620da9e74b326adba0":{
+      "next_state_uuids": ["e10257b71fc23d8259176c24bee070a0"],
+      "cows": {
+        "abe": {
+          "pos": [0, 1],
+          "emo": "chilling"
+        },
+        "ad271a74a338a1dc7b3c069b67cd29b2-a94d522590f6326dfb24b1f020bb0f41":{
+          "pos": [0, 2],
+          "emo": "chilling"
+        }        
+      }
+    }
+  }
+}
